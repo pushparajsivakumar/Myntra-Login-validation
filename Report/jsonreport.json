@@ -1,0 +1,100 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 5,
+        "name": "To validate login with valid login Details",
+        "description": "",
+        "id": "to-validate-the-login-functionality-of-myntra-application;to-validate-login-with-valid-login-details",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4022445500,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "To launch the chrome browser and maximize window",
+            "match": {
+              "location": "MyntraLogin.to_launch_the_chrome_browser_and_maximize_window()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 5636969800,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "To launch the url of the myntra application",
+            "match": {
+              "location": "MyntraLogin.to_launch_the_url_of_the_myntra_application()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 277405200,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "To pass valid mobile number in textbox",
+            "match": {
+              "location": "MyntraLogin.to_pass_valid_mobile_number_in_textbox()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 230792000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "To click the continue button",
+            "match": {
+              "location": "MyntraLogin.to_click_the_continue_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 934502500,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "To close the browser",
+            "match": {
+              "location": "MyntraLogin.to_close_the_browser()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@feature1"
+          },
+          {
+            "name": "@Sanity"
+          }
+        ]
+      }
+    ],
+    "name": "To Validate the login Functionality of myntra application",
+    "description": "",
+    "id": "to-validate-the-login-functionality-of-myntra-application",
+    "keyword": "Feature",
+    "uri": "src/test/resources/myntra.feature",
+    "tags": [
+      {
+        "name": "@feature1",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
